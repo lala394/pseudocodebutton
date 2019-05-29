@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+
+    #fixed {
+        height: 100px;
+        width: 260px;
+        position: fixed;
+        background: #eee;
+        float: left ;
+        padding:20px;
+    }
+    #relative {
+        position: relative;
+        width: 800px;
+        margin: 0px auto;
+        background: #eee;
+        height: 200px;
+        padding:20px;
+        margin-bottom: 20px;
+    }
+    #absolute {
+        position:absolute;
+        left: 620px;
+        top: 100px;
+        background: #999;
+        width: 200px;
+        height: 100px;
+        padding:20px;
+    }
+
+    h1,p {
+        margin-top: 50px;
+        width: 800px;
+        margin: 0px auto;
+        text-align: left;
+        line-height: 25px;
+        margin-bottom: 20px;
+        font-weight: normal;
+    }
